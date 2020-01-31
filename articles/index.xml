@@ -1,4 +1,59 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>iXsystems™ Documentation – iXsystems™ Articles</title><link>/articles/</link><description>Recent content in iXsystems™ Articles on iXsystems™ Documentation</description><generator>Hugo -- gohugo.io</generator><atom:link href="/articles/index.xml" rel="self" type="application/rss+xml"/><item><title>Articles: Getting Started With FreeNAS™</title><link>/articles/2020/01/30/getting-started-with-freenas/</link><pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate><guid>/articles/2020/01/30/getting-started-with-freenas/</guid><description>
-&lt;p>Here&amp;rsquo;s some test content.&lt;/p></description></item><item><title>Articles: TrueNAS™</title><link>/articles/2020/01/30/truenas/</link><pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate><guid>/articles/2020/01/30/truenas/</guid><description>
-&lt;p>Here&amp;rsquo;s some test content.&lt;/p></description></item><item><title>Articles: TrueNAS™</title><link>/articles/2018/01/04/truenas/</link><pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate><guid>/articles/2018/01/04/truenas/</guid><description>
-&lt;p>Here&amp;rsquo;s some test content.&lt;/p></description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iXsystems™ Documentation – iXsystems™ Articles</title>
+    <link>/articles/</link>
+    <description>Recent content in iXsystems™ Articles on iXsystems™ Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="/articles/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Articles: Getting Started With FreeNAS™</title>
+      <link>/articles/2020/01/30/getting-started-with-freenas/</link>
+      <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/2020/01/30/getting-started-with-freenas/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Here&amp;rsquo;s some test content.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Articles: TrueNAS™</title>
+      <link>/articles/2020/01/30/truenas/</link>
+      <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/2020/01/30/truenas/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Here&amp;rsquo;s some test content.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Articles: TrueNAS™</title>
+      <link>/articles/2018/01/04/truenas/</link>
+      <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/2018/01/04/truenas/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Here&amp;rsquo;s some test content.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
