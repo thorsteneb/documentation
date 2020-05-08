@@ -1,0 +1,12 @@
+{{ if isset .Site.Taxonomies "products" }}
+{{ if not (eq (len .Site.Taxonomies.products) 0) }}
+<div class="productslist">
+  <p class="asidetitle">{{ .Site.Params.Strings.Products | default "Current Products" }}</p>
+  <ul>
+    {{ range $name, $items := .Site.Taxonomies.products }}
+    <li><a href="{{ $.Site.BaseURL }}products/{{ $name | urlize | lower }}" title="{{ $name }}">{{ .Page.Title }}<sup>{{ len $items }}</sup></a></li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
+{{ end }}

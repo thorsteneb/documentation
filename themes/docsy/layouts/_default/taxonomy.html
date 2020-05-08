@@ -1,0 +1,13 @@
+{{ define "main" }}
+<main>
+  <div>
+   <h1>{{ .Title }}</h1>
+   <!-- ranges through each of the content files associated with a particular taxonomy term and renders the summary.html content view -->
+    {{ range .Params.products }}
+	<div class="article-products">
+	<i>{{ .Date.Format "2006-01-02" }}</i> : <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+	</div>
+    {{ end }}
+  </div>
+</main>
+{{ end }}

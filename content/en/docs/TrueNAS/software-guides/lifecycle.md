@@ -3,6 +3,7 @@ title: "TrueNAS Software Development Life Cycle"
 linkTitle: "TrueNAS Software Development Life Cycle"
 description: "TrueNAS Software Development Life Cycle"
 weight: 1
+products: ["TrueNAS"]
 ---
 
 ## TrueNAS Software Development Life Cycle

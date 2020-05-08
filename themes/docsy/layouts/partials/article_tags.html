@@ -1,0 +1,10 @@
+{{ if isset .Params "products" }}
+{{ if not (eq (len .Params.products) 0) }}
+<div class="article-products">
+  <span></span>
+  {{ range .Params.products }}
+  <a class="article-products-link" href="{{ $.Site.BaseURL }}/products/{{ . | urlize }}">{{ . }}</a>
+  {{ end }}
+</div>
+{{ end }}
+{{ end }}

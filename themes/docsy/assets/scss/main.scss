@@ -58,3 +58,42 @@ footer {
 }
 
 @import "styles_project";
+header.article-meta {
+	background:var(--bone-color);
+	padding:0 4%;
+	margin:0;
+	border-top:1px solid #dbdbdb;
+}
+
+.article-products span {
+	position:relative;float:left;width:1em;height:2em;margin-right:.5em;
+}
+
+.article-products span:before {
+	font-family: "Font Awesome 5 Free";
+	content: '\f233';
+	font-style: normal;
+	font-weight: 900;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	width:1.2em;
+	height:1.2em;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-.3em;
+	margin-left:-.6em;
+}
+
+.article-products a {
+	float:left;
+	padding:0 .3em;
+	margin:.3em;
+	margin-top:.6em;
+	background:#e6e6e6;
+}
+
+.article-products a:hover {
+	color:var(--black-color);
+	background:var(--rose-color)
+}
