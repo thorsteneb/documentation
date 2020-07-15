@@ -63,9 +63,9 @@ connected is correct. There are
 to do this. Type
 
 <pre>
-lsblk -po +vendor,+model
+lsblk -po +vendor,model
 </pre>
-and take note of the path to the USB.
+and take note of the path to the USB, shown in the NAME column of lsblk.
 
 Next, use [dd](https://en.wikipedia.org/wiki/Dd_(Unix)) to write
 the installer to the USB. Type
